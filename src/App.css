@@ -242,6 +242,35 @@ margin:5px;
 
 /* FOOTER */
 
+.contact-info-map{
+  background-image: url('./assets/bg-map.jpg');
+  width:100%;
+  height:485px;
+  display: flex;
+  justify-content: center;
+}
+.address-box{
+  margin:80px;
+  width:80%;
+  
+  color:#fff;
+  font-size: 1.5rem;
+}
+.address{
+  float:left;
+  background-color: #002450;
+  width:40%;
+  text-align: center;
+  padding-bottom:20px;
+}
+.address p{
+  margin-bottom: 2px;
+  margin-top:2px;
+  font-size: 1.2rem;
+}
+
+
+
 .call-today{
   background-color: #002450;
   text-align: center;
