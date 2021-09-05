@@ -1,38 +1,269 @@
-.App {
+
+
+
+
+
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+p{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+/* DAVID STYLES */
+.tagline{
+  font-size: 30px;
   text-align: center;
+  color: white;
+  text-shadow: 0px 0px 10px #000;
+}
+.tagline span{
+  color: #c3d4e5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.header-wrap{
+  background-image: url('./assets/bg-header-wrap-home.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+.header-page{
+  width:1260px;
+  /* display:flex; */
+  /* justify-content: center; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo-nav-container{
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  
+}
+.head-nav{
+  display:flex;
+  align-items: center;
+}
+.head-nav ul{
+  display: flex;
+  list-style-type: none;
+  
+    
+}
+.head-nav li{
+  padding-left:20px;
+  padding-right:20px;
+}
+.head-nav ul a{
+  text-decoration: none;
+  color:#fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.head-call{
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+  color:white;
+}
+.call-num{
+  font-size: 33px;
+  color: orange;
+}
+
+/* BODY TEXT STYLES */
+
+.interchanging-body{
+  width:100%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* flex-direction: column; */
+}
+.body-wrapper{
+  width:1260px;
+  display:flex;
+  flex-direction: column;
+}
+.section-one-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 1260px;
+  justify-content: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.section-one-peel{
+  justify-content: center;
+  width:1260px;
+}
+.section-one-container{
+  display:flex;
+  justify-content: space-between;
+  
+}
+.section-two-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 1260px;
+  justify-content: center;
+  background-color: #002450;
+
+}
+.section-two-wrapper h3{
+  color:#faa62d;
+  font-size: 36px;
+}
+.section-two-wrapper h4{
+  color:white;
+  font-size: 36px;
+}
+.section-two-wrapper p{
+  color:white;
+}
+.section-two-peel{
+  justify-content: center;
+  width:1260px;
+}
+.section-two-content{
+  display:flex;
+}
+.section-three-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 1260px;
+  justify-content: center;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.first-par{
+  width: 612px;
+}
+.second-par{
+  width:612px;
+}
+
+.section-three-wrapper{
+  text-align: center;
+}
+
+.section-three-wrapper h3{
+  color:#01254e;
+  font-size: 36px;
+  
+}
+
+
+/* FORM STYLES */
+
+.form-wrapper{
+  background-image: url('./assets/bg-shortform.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom:40px;
+}
+.form-wrapper h4{
+  color:white;
+  font-size: 36px;
+}
+.form-wrapper p{
+  color:white;
+  /* font-size: 36px; */
+}
+.form-peel{
+  width:1260px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.input-container{
+  display:flex;
+  flex-direction: column;
+}
+
+.req-form{
+  display:flex;
+  flex-direction: column;
+}
+
+.req-form-half-one{
+  display:flex;
+  width:100%;
+  justify-content: space-between;
+}
+.req-form input{
+padding:10px;
+font-family: 'Libre Baskerville', serif;
+  /* font-size: 1.1rem; */
+  /* line-height: 1.8; */
+margin:5px;
+}
+.req-form textarea{
+  margin-top: 5px;
+  height:134px;
+  width:48.5%;
+  text-indent: 5px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  
+  
+  
+}
+.inputs-req{
+  display:flex;
+  flex-direction: column;
+  width:48.5%;
+}
+.req-form-half-two button{
+  background-color: #faa62d;
+  color: #fff;
+  width: 210px;
+  height: 56px;
+  font-size: 1.3rem;
+  float:right;
+
+}
+
+.req-form-half-two button:hover{
+  background-color: white;
+  color:blue;
+  cursor: pointer;
+}
+
+
+
+/* FOOTER */
+
+.call-today{
+  background-color: #002450;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.call-today h3{
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 0;
+  
+}
+
+.call-today h2{
+  color:#faa62d;
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+.copyright{
+  padding-top: 40px;
+  text-align: center;
+  font-size: .7rem;
 }
