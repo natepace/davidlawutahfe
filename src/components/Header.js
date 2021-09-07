@@ -36,7 +36,7 @@ export const Header = () => {
                     </div>
                 </div>
                 <div className="tagline">
-                    <h1>Aggressive Representation
+                    <h1>Aggressive Representation <br />
                         <span> Individualized for Every Client</span>
                     </h1>
                 </div>

@@ -44,6 +44,8 @@ p{
   justify-content: space-evenly;
   
 }
+
+
 .head-nav{
   display:flex;
   align-items: center;
@@ -67,7 +69,7 @@ p{
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  margin-top: 40px;
   color:white;
 }
 .call-num{
@@ -81,23 +83,26 @@ p{
   width:100%;
   display: flex;
   justify-content: center;
-  /* flex-direction: column; */
+  flex-direction: column;
 }
 .body-wrapper{
   width:1260px;
   display:flex;
   flex-direction: column;
+  justify-content: center;
 }
 .section-one-wrapper{
   display: flex;
-  flex-direction: column;
-  width: 1260px;
+  /* flex-direction: column; */
+  width: 100%;
   justify-content: center;
 
 }
 
 .section-one-peel{
+  display:flex;
   justify-content: center;
+  flex-direction: column;
   width:1260px;
 }
 .section-one-container{
@@ -107,11 +112,23 @@ p{
 }
 .section-two-wrapper{
   display: flex;
-  flex-direction: column;
-  width: 1260px;
+  /* flex-direction: column; */
+  width: 100%;
   justify-content: center;
   background-color: #002450;
-
+}
+.section-two-peel{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width:1260px;
+}
+.section-two-topping-1{
+  width:65%;
+}
+.section-two-topping-2{
+  background-image: url('./assets/bg-second-image.jpg');
+  width:765px;
 }
 .section-two-wrapper h3{
   color:#faa62d;
@@ -124,19 +141,35 @@ p{
 .section-two-wrapper p{
   color:white;
 }
-.section-two-peel{
-  justify-content: center;
-  width:1260px;
+
+
+/* .image-box{
+  background-image: url('./assets/bg-second-image.jpg');
+  width: 100%;
+} */
+.para0{
+width:90%;
 }
+.para1{
+  width:90%;
+}
+
+
 .section-two-content{
   display:flex;
 }
 .section-three-wrapper{
   display: flex;
-  flex-direction: column;
-  width: 1260px;
+  /* flex-direction: column; */
+  width: 100%;
   justify-content: center;
 
+}
+.section-three-peel{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:1260px;
 }
 
 .first-par{
@@ -149,6 +182,7 @@ p{
 .section-three-wrapper{
   text-align: center;
 }
+
 
 .section-three-wrapper h3{
   color:#01254e;
@@ -234,8 +268,9 @@ margin:5px;
 
 .req-form-half-two button:hover{
   background-color: white;
-  color:blue;
+  color:navy;
   cursor: pointer;
+  border-style: inset;
 }
 
 
