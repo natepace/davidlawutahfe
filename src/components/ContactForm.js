@@ -48,7 +48,7 @@ export const ContactForm = () => {
 
                         <div className="req-form-half-two">
                             {/* <input type="checkbox">
-                            </input>
+                        
                             <p>I have read the disclaimer</p> */}
 
                             <button><strong>Submit</strong></button>
