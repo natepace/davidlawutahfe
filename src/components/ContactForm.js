@@ -9,23 +9,28 @@ export const ContactForm = () => {
                     <p>
                         <strong>Bold</strong> labels are required.
                     </p>
-                    <form className="req-form">
+                    <form className="req-form"
+                        action="https://formsubmit.co/david@pacelawutah.com" method="POST"
+                    >
                         <div className="req-form-half-one">
                             <div className="inputs-req">
 
 
                                 <input
                                     type="text"
+                                    name="Name"
                                     placeholder="Name"
                                 >
                                 </input>
                                 <input
-                                    type="text"
+                                    type="email"
+                                    name="email"
                                     placeholder="E-mail"
                                 >
                                 </input>
                                 <input
                                     type="text"
+                                    name="Phone"
                                     placeholder="Phone"
                                 >
                                 </input>
@@ -34,6 +39,7 @@ export const ContactForm = () => {
                                 rows="4"
                                 cols="15"
                                 type="text"
+                                name="Legal Issue"
                                 placeholder="Brief description of your legal issue"
 
                             >
