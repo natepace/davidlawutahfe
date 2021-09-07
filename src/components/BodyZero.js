@@ -55,7 +55,7 @@ export const BodyZero = () => {
                     </div>
                     <div className="connect-content">
                         <p>
-                            We offer all clients a complimentary consultation. Please call us at 866-780-9641 or feel free to contact us online. We accept all major credit cards as payment, and offer payment plans as well as Spanish language services.
+                            We offer all clients a complimentary consultation. Please call us at 801-355-9700 or feel free to contact us online. We accept all major credit cards as payment, and offer payment plans as well as Spanish language services.
                         </p>
                     </div>
                 </div>
