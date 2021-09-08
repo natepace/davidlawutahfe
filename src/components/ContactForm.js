@@ -10,7 +10,7 @@ export const ContactForm = () => {
                         <strong>Bold</strong> labels are required.
                     </p>
                     <form className="req-form"
-                        action="https://formsubmit.co/davidpace@msn.com" method="POST"
+                        action="https://formsubmit.co/4d09fc3b317c64a2130699b1bc76a0fb" method="POST"
                     >
                         <div className="req-form-half-one">
                             <div className="inputs-req">
