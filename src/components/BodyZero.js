@@ -1,7 +1,47 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 export const BodyZero = () => {
     return (
         <div className="interchanging-body">
+            <div className="practice-areas-nav">
+                <ul>
+                    <li>
+                        <Link className="family-law-nav" to="/Family-Law">
+                            <span>Family Law</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className="appeals-law-nav" to="/other-practice-areas/Appeals">
+                            <span>Appeals</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className="business-law-nav" to="/other-practice-areas/Business-Litigation">
+                            <span>Business Litigation</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className="civil-law-nav" to="/other-practice-areas/Civil-Rights">
+                            <span>Civil Rights</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className="judgement-law-nav" to="/other-practice-areas/Judgment-Enforcement">
+                            <span>Judgement Enforcement</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className="injury-law-nav" to="/other-practice-areas/Personal-Injury">
+                            <span>Personal Injury</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className="estate-law-nav" to="/other-practice-areas/Real-Estate">
+                            <span>Real Estate</span>
+                        </Link>
+                    </li>
+                </ul>
+            </div>
             {/* <div className="body-wrapper"> */}
             <div className="section-one-wrapper">
                 <div className="section-one-peel">

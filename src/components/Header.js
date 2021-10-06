@@ -1,5 +1,6 @@
 import React from 'react'
 import brandlogo from '../assets/brandlogo.png'
+import { Link } from 'react-router-dom'
 export const Header = () => {
     return (
         <div className="header-wrap">
@@ -13,20 +14,20 @@ export const Header = () => {
                     </div>
                     <div className="head-nav">
                         <nav>
-                            {/* <ul>
+                            <ul>
                                 <li>
-                                    <a href="#">Home</a>
+                                    <Link to='/'>Home</Link>
                                 </li>
                                 <li>
-                                    <a href="#">About</a>
+                                    <Link to='/about'>About</Link>
                                 </li>
                                 <li>
-                                    <a href="#">Attorneys</a>
+                                    <Link to='/Our-Attorneys'>Attorneys</Link>
                                 </li>
                                 <li>
-                                    <a href="#">Contact</a>
+                                    <Link to='/contact'>Contact</Link>
                                 </li>
-                            </ul> */}
+                            </ul>
 
                         </nav>
                     </div>
@@ -40,8 +41,8 @@ export const Header = () => {
                         <span> Individualized for Every Client</span>
                     </h1>
                 </div>
-                <div className="practice-areas-nav">
-                    {/* <ul>
+                {/* <div className="practice-areas-nav">
+                    <ul>
                         <li></li>
                         <li></li>
                         <li></li>
@@ -49,8 +50,8 @@ export const Header = () => {
                         <li></li>
                         <li></li>
                         <li></li>
-                    </ul> */}
-                </div>
+                    </ul>
+                </div> */}
             </header>
         </div>
     )

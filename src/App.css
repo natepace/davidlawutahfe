@@ -77,7 +77,207 @@ p{
   color: orange;
 }
 
-/* BODY TEXT STYLES */
+/**** BODY TEXT STYLES ************/
+
+
+/* MAIN LAW NAV STYLES */
+
+
+.practice-areas-nav{
+  display:flex;
+  width:100%;
+}
+.practice-areas-nav ul{
+  display:flex;
+  list-style: none;
+  width:100%;
+  justify-content: center;
+}
+.practice-areas-nav ul li{
+  width:179px;
+  height:176px;
+  border-right: 1px solid #f2f2f2;
+}
+.practice-areas-nav a{
+  color:black;
+  
+}
+.practice-areas-nav ul li:hover{
+  background-color:#133053;
+}
+.practice-areas-nav a:hover{
+  color:white;
+}
+
+
+
+.family-law-nav{
+  display:flex;
+  flex-direction: column-reverse;
+  width:99px;
+  height: 96px;
+  padding:40px;
+  background: url(./assets/n-prac-fami.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 40px;
+  text-align: center;
+  text-decoration: none;
+
+}
+.appeals-law-nav{
+  display:flex;
+  flex-direction: column-reverse;
+  width:99px;
+  height: 96px;
+  padding:40px;
+  background: url(./assets/n-fami-appe.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 40px;
+  text-align: center;
+  text-decoration: none;
+
+}
+.business-law-nav{
+  display:flex;
+  flex-direction: column-reverse;
+  width:99px;
+  height: 96px;
+  padding:40px;
+  background: url(./assets/n-fami-busi.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 40px;
+  text-align: center;
+  text-decoration: none;
+
+}
+.civil-law-nav{
+  display:flex;
+  flex-direction: column-reverse;
+  width:99px;
+  height: 96px;
+  padding:40px;
+  background: url(./assets/n-fami-civi.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 40px;
+  text-align: center;
+  text-decoration: none;
+
+}
+.judgement-law-nav{
+  display:flex;
+  flex-direction: column-reverse;
+  width:99px;
+  height: 96px;
+  padding:40px;
+  background: url(./assets/n-fami-judg.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 40px;
+  text-align: center;
+  text-decoration: none;
+
+}
+.injury-law-nav{
+  display:flex;
+  flex-direction: column-reverse;
+  width:99px;
+  height: 96px;
+  padding:40px;
+  background: url(./assets/n-fami-pers.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 40px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.estate-law-nav{
+  display:flex;
+  flex-direction: column-reverse;
+  width:99px;
+  height: 96px;
+  padding:40px;
+  background: url(./assets/n-fami-real.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 40px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+/* CHANGING BODY STYLES ********* */
+.changing-body{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.practice-areas-col{
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 427px;
+}
+.subnavs{
+  height: 61px;
+  text-decoration: none;
+  text-indent: 14px;
+  color:white;
+  background-color: #002450;
+  border-bottom: 1px solid white;
+}
+.family-subnavs {
+  display:flex;
+  align-items: center;
+  height:47px;
+  text-decoration: none;
+  text-indent: 14px;
+  border-bottom: 1px solid #d2d2d2;
+  border-left: 1px solid #cfd8e2;
+  border-right: 1px solid #cfd8e2;
+  color: black;
+}
+.family-subnavs:hover{
+  background-color: #0b4f9b;
+  color:white;
+}
+.family-subnavs-PRIM{
+  display:flex;
+  align-items: center;
+  height:47px;
+  text-decoration: none;
+  text-indent: 14px;
+  border-bottom: 1px solid #d2d2d2;
+  border-left: 1px solid #cfd8e2;
+  border-right: 1px solid #cfd8e2;
+  background-color: #0b4f9b;
+  color:white;
+}
+.family-subnavs-PRIM div{
+  margin-left: 14px;
+  background-image: url(./assets/bg-rightarrow.png);
+  width: 6px;
+  height: 10px;
+  background-repeat: no-repeat;
+}
+.family-subnavs div{
+  margin-left: 14px;
+  background-image: url(./assets/bg-rightarrow.png);
+  width: 6px;
+  height: 10px;
+  background-repeat: no-repeat;
+  
+}
+.family-subnavs div:hover{
+ filter:invert(100%)
+}
 
 .interchanging-body{
   width:100%;
@@ -352,8 +552,87 @@ margin:5px;
 .tagline h1{
   font-size: 120%;
 }
+.head-nav{
+  justify-content: center;
+  
+}
+.head-nav ul{
+  padding-left:0;
+  
+}
+
+.practice-areas-nav{
+  overflow-x: scroll;
+}
+.practice-areas-nav::-webkit-scrollbar{
+  height:.5em;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.practice-areas-nav::-webkit-scrollbar-thumb{
+  background-color: darkgrey;
+  /* outline: 1px solid slategrey; */
+  border-radius:4px;
+}
+.practice-areas-nav ul li{
+  height:80%;
+}
+
+.practice-areas-nav ul li a{
+  padding:0;
+  background-position-y: 20px;
+  font-size: 70%;
+  width:100%;
+  
+}
+.practice-areas-nav ul li:hover{
+  background-color:white;
+}
+.practice-areas-nav ul li a:hover{
+  background-color:white;
+}
+.practice-areas-nav a:hover{
+  color:black;
+}
+
+.practice-areas-nav ul li:active{
+  background-color:#133053;
+}
+.practice-areas-nav ul li a:active{
+  
+  background-color:#133053;
+  color:white;
+}
 
 
+.column-main-wrapper{
+  width:80%;
+}
+
+/* SIDE MENU STYLES*********** */
+
+
+.column-menu-wrapper{
+  width:20%;
+}
+
+.practice-areas-col{
+  width:100%;
+  
+}
+.subnavs{
+  /* width:110px; */
+}
+.family-subnavs p{
+  font-size: 80%;
+}
+.family-subnavs-PRIM p{
+  font-size: 80%;
+}
+.subnavs p{
+  font-size: 80%;
+  text-align: center;
+  text-indent: 0;
+}
 
 .interchanging-body{
   width:100%;
@@ -437,8 +716,56 @@ margin:5px;
 }
 }
 
+@media (max-width:1100px) {
+  .family-subnavs p{
+    font-size: 70%;
+  }
+  .family-subnavs-PRIM p{
+    font-size: 70%;
+  }
+  .subnavs p{
+    font-size: 70%;
+    text-align: center;
+    text-indent: 0;
+  }
+}
+
+@media (max-width:980px) {
+  .family-subnavs p{
+    font-size: 60%;
+  }
+  .family-subnavs-PRIM p{
+    font-size: 60%;
+  }
+  .subnavs p{
+    font-size: 60%;
+    text-align: center;
+    text-indent: 0;
+  }
+}
+
 
 @media (max-width:560px){
+  .family-subnavs p{
+    font-size: 50%;
+    
+  }
+  .family-subnavs div{
+    background:none;
+    margin-left: 0;
+  }
+  .family-subnavs-PRIM div{
+    background:none;
+    margin-left: 0;
+  }
+  .family-subnavs-PRIM p{
+    font-size: 50%;
+  }
+  .subnavs p{
+    font-size: 50%;
+    text-align: center;
+    text-indent: 0;
+  }
   .brand-logo{
     display:flex;
     justify-content: center;
@@ -454,7 +781,30 @@ margin:5px;
   font-size: 80%;
 }
 
-
+.practice-areas-nav{
+  overflow-x: scroll;
+  height:80%;
+}
+.practice-areas-nav ul{
+  margin-left: 100px;
+  padding:0;
+}
+.practice-areas-nav ul li{
+  height:80%;
+}
+.practice-areas-nav ul li a{
+  width:100px;
+  /* height: 100%; */
+  padding:0;
+  background-position-y: 10px;
+  font-size: 70%;
+}
+/* .practice-areas-nav ul li a:hover{
+  background-color:#133053;
+}
+.practice-areas-nav a:hover{
+  color:white;
+} */
 
 .interchanging-body{
   width:100%;
@@ -535,4 +885,32 @@ margin:5px;
   padding:0;
 }
 
+}
+
+
+
+@media (max-width:480px){
+  .practice-areas-nav ul{
+    margin-left: 150px;
+    padding:0;
+  }
+}
+@media (max-width:430px) {
+  .family-subnavs p{
+    font-size: 40%;
+  }
+  .family-subnavs-PRIM p{
+    font-size: 40%;
+  }
+  .subnavs p{
+    font-size: 40%;
+    text-align: center;
+    text-indent: 0;
+  }
+}
+@media (max-width:360px){
+  .practice-areas-nav ul{
+    margin-left: 200px;
+    padding:0;
+  }
 }
