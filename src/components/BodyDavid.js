@@ -64,7 +64,7 @@ export const BodyDavid = () => {
                                             <div class="attorneyProfileLocationLabel">Location: </div>
                                             <div class="attorneyProfileLocation">Cottonwood Heights, Utah</div>
                                             <div class="attorneyProfilePhoneLabel">Phone: </div>
-                                            <div class="attorneyProfilePhone"> 801-428-0954 866-780-9641
+                                            <div class="attorneyProfilePhone"> 801-355-9700
                                             </div>
                                             <div class="attorneyProfileFaxLabel">Fax: </div>
                                             <div class="attorneyProfileFax"> 801-355-9705
