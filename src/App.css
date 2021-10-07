@@ -638,7 +638,7 @@ margin:5px;
 }
 .column-main-wrapper{
   
-  width:60%;
+  width:70%;
 }
 
 /* SIDE MENU STYLES*********** */
@@ -671,6 +671,7 @@ margin:5px;
 }
 .family-subnavs-PRIM p{
   font-size: 80%;
+  font-family: sans-serif;
 }
 .subnavs p{
   font-size: 80%;
@@ -942,14 +943,20 @@ margin:5px;
 }
 @media (max-width:430px) {
   .family-subnavs p{
-    font-size: 40%;
+    font-size: 50%;
+    text-indent: 0;
+    margin-left: 4px;
   }
   .family-subnavs-PRIM p{
-    font-size: 40%;
+    font-size: 50%;
+    text-indent: 0;
+    margin-left: 4px;
+
   }
   .subnavs p{
-    font-size: 40%;
-    text-align: center;
+    font-size: 50%;
+    text-indent: 0;
+    margin-left: 4px;
     
   }
 }
