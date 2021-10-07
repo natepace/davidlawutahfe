@@ -53,7 +53,7 @@ export const BodyAbout = () => {
                                     <h3>A Salt Lake City, Utah, Law Firm That Meets Your Expectations</h3>
                                     <p>The idea of choosing a lawyer may seem daunting and overwhelming — especially if your legal matter may drastically affect your future. At The Pace Law Firm, Attorneys and Counselors at Law, we recognize that this decision may be difficult but are here to reassure you that it can be an easy decision if you work with our firm.</p>
 
-                                    <p>Our firm is located in Salt Lake City, Utah, and represents clients throughout the state of Utah in family law, business law, real estate, personal injury, civil rights, judgment enforcement, wrongful death, bankruptcy litigation, and appellate matters. <a href="/web/20201001032228/https://www.pacelawutah.com/Our-Attorneys/">Our attorneys</a> are very experienced, knowledgeable and understanding. We are caring and committed to meeting our clients' needs and continually aim to provide the best possible representation. When you work with us, you can expect:</p>
+                                    <p>Our firm is located in Salt Lake City, Utah, and represents clients throughout the state of Utah in family law, business law, real estate, personal injury, civil rights, judgment enforcement, wrongful death, bankruptcy litigation, and appellate matters. <Link to='/Our-Attorneys'>Our attorneys</Link> are very experienced, knowledgeable and understanding. We are caring and committed to meeting our clients' needs and continually aim to provide the best possible representation. When you work with us, you can expect:</p>
 
                                     <ul>
                                         <li><strong>Dedication to your case</strong></li>
@@ -69,7 +69,7 @@ export const BodyAbout = () => {
                                     </p>
                                     <h3>Contact Us Today</h3>
                                     <p>Contact us toll free at <strong>801-355-9700</strong> or feel free to
-                                        <a href="/web/20201001032228/https://www.pacelawutah.com/Contact.shtml"> contact us online</a>. We accept all major credit cards as payment, and offer payment plans as well as Spanish language services.
+                                        <strong> contact us below!</strong> We accept all major credit cards as payment, and offer payment plans as well as Spanish language services.
                                     </p>
                                 </div>
                             </article>

@@ -55,7 +55,7 @@ export const BodyAppeals = () => {
                                     <p>Our first goal in your case will be to completely understand the unique aspects of your situation. We will develop a comprehensive strategy based upon your goals and priorities. We seek the positive outcomes you need and never surrender your dignity or key desires during the process.</p>
                                     <p>We are thoroughly skilled and comfortable in all areas of case assessment, negotiation, mediation, arbitration, trial and appellate practice. We never forget that how we perform at the negotiating table or in the courtroom has the single biggest effect on the outcome of your case.</p>
                                     <p>Contact our Salt Lake City lawyers today for a free consultation about your case. Call us at 801-355-9700 or complete and
-                                        <a href="/web/20201001041044/https://www.pacelawutah.com/Contact.shtml">submit our online contact form</a> today.</p>
+                                        <strong> contact us below!</strong></p>
                                 </div>
                             </article>
                         </div>

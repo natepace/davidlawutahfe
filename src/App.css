@@ -219,6 +219,13 @@ p{
   justify-content: center;
   
 }
+.section-one-title{
+  color:#003c80;
+  
+}
+.page-title{
+  color:#003c80;
+}
 
 .practice-areas-col{
   display: flex;
@@ -927,11 +934,17 @@ margin:5px;
 }
 .address-box{
   margin-top: 0px;
-  width:90%;
+  margin-right:0;
+  margin-left:0;
+  width:100%;
 }
 .address{
   width:100%;
   padding:0;
+  
+}
+.address p{
+  font-size: 70%;
 }
 
 }
