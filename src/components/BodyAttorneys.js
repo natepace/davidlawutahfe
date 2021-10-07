@@ -55,7 +55,7 @@ export const BodyAttorneys = () => {
                                             <Link to="/Our-Attorneys/David-S-Pace">David S. Pace</Link>
                                         </li>
                                     </ul>
-                                    <h3>Contact The Pace Law Firm, Attorneys and Counselors at Law, Today</h3><p>When legal matters affect your life in any way, know that you will be well cared for at our firm because we care about the outcome of your case. Please <a href="/web/20201001032437/https://www.pacelawutah.com/Contact.shtml">contact us</a> today at <strong>866-780-9641</strong> to schedule a complimentary consultation with us.</p>
+                                    <h3>Contact The Pace Law Firm, Attorneys and Counselors at Law, Today</h3><p>When legal matters affect your life in any way, know that you will be well cared for at our firm because we care about the outcome of your case. Please <a href="/web/20201001032437/https://www.pacelawutah.com/Contact.shtml">contact us</a> today at <strong>801-355-9700</strong> to schedule a complimentary consultation with us.</p>
                                 </div>
                             </article>
                         </div>
