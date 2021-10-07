@@ -806,10 +806,13 @@ margin:5px;
   }
   .family-subnavs-PRIM p{
     font-size: 50%;
+    
   }
   .subnavs p{
     font-size: 50%;
     text-align: center;
+    text-indent: 0;
+    margin-left: 4px;
     
   }
   .brand-logo{
@@ -940,6 +943,9 @@ margin:5px;
     margin-left: 150px;
     padding:0;
   }
+
+  
+
 }
 @media (max-width:430px) {
   .family-subnavs p{

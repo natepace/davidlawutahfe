@@ -7,7 +7,7 @@ export const ContactForm = () => {
                 <h4 className="form-title">Request A Consultation</h4>
                 <div className="input-container">
                     <p>
-                        <strong>Bold</strong> labels are required.
+                        <strong>All</strong> labels are required.
                     </p>
                     <form className="req-form"
                         action="https://formsubmit.co/david@pacelawutah.com" method="POST"
