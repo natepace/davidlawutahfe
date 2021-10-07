@@ -92,6 +92,7 @@ p{
   list-style: none;
   width:100%;
   justify-content: center;
+  
 }
 .practice-areas-nav ul li{
   width:179px;
@@ -226,12 +227,18 @@ p{
   height: 427px;
 }
 .subnavs{
+  display: flex;
+  align-items: center;
+  
   height: 61px;
   text-decoration: none;
   text-indent: 14px;
   color:white;
   background-color: #002450;
   border-bottom: 1px solid white;
+}
+.subnavs:hover{
+  background-color: #0b4f9b;
 }
 .family-subnavs {
   display:flex;
@@ -532,8 +539,30 @@ margin:5px;
   font-size: .7rem;
 }
 
+.changing-body{
+  display: flex;
+  width:100%;
 
-
+}
+.column-main-wrapper{
+  display: flex;
+  width:60%;
+}
+.about-pages-wrapper{
+  display:flex;
+  width: 1260px;
+  flex-direction: column;
+}
+.under-nav-page{
+  display:flex;
+  justify-content: space-evenly;
+  margin-top:20px ;
+  
+}
+.column-main{
+  display:flex;
+  flex-direction: column;
+}
 
 /* MEDIA STYLES BELOW */
 
@@ -584,14 +613,15 @@ margin:5px;
   width:100%;
   
 }
-.practice-areas-nav ul li:hover{
+/* .practice-areas-nav ul li:hover{
   background-color:white;
 }
 .practice-areas-nav ul li a:hover{
   background-color:white;
-}
+} */
 .practice-areas-nav a:hover{
-  color:black;
+  background-color: #133053;
+  /* color:black; */
 }
 
 .practice-areas-nav ul li:active{
@@ -603,9 +633,12 @@ margin:5px;
   color:white;
 }
 
-
+.about-pages-wrapper{
+  width:100%;
+}
 .column-main-wrapper{
-  width:80%;
+  
+  width:60%;
 }
 
 /* SIDE MENU STYLES*********** */
@@ -613,6 +646,7 @@ margin:5px;
 
 .column-menu-wrapper{
   width:20%;
+  
 }
 
 .practice-areas-col{
@@ -621,9 +655,19 @@ margin:5px;
 }
 .subnavs{
   /* width:110px; */
+  border-radius: 2px;
+  margin-bottom: 3px;
+  height: 35px;
+}
+.family-subnavs{
+  border-radius: 2px;
+  margin-bottom: 1px;
+  height: 35px;
 }
 .family-subnavs p{
+  
   font-size: 80%;
+  font-family: sans-serif;
 }
 .family-subnavs-PRIM p{
   font-size: 80%;
@@ -631,7 +675,8 @@ margin:5px;
 .subnavs p{
   font-size: 80%;
   text-align: center;
-  text-indent: 0;
+  /* text-indent: 0; */
+  font-family: sans-serif;
 }
 
 .interchanging-body{
@@ -726,7 +771,7 @@ margin:5px;
   .subnavs p{
     font-size: 70%;
     text-align: center;
-    text-indent: 0;
+    
   }
 }
 
@@ -740,7 +785,7 @@ margin:5px;
   .subnavs p{
     font-size: 60%;
     text-align: center;
-    text-indent: 0;
+    
   }
 }
 
@@ -764,7 +809,7 @@ margin:5px;
   .subnavs p{
     font-size: 50%;
     text-align: center;
-    text-indent: 0;
+    
   }
   .brand-logo{
     display:flex;
@@ -905,7 +950,7 @@ margin:5px;
   .subnavs p{
     font-size: 40%;
     text-align: center;
-    text-indent: 0;
+    
   }
 }
 @media (max-width:360px){
