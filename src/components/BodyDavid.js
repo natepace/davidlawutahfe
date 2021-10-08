@@ -122,7 +122,7 @@ export const BodyDavid = () => {
                                                 <li class="attorneyProfileEducationLegal"  >
                                                     <strong><span>Brigham Young University, J. Reuben Clark Law School</span>, Provo, Utah</strong>
                                                     <ul class="attorneyProfileEducationDegree">
-                                                        <li class="last-child">J.D.<em> cum laude</em> — 1998</li>
+                                                        <li class="last-child">J.D.<em> cum laude</em> – 1998</li>
                                                     </ul>
                                                 </li>
                                                 <li class="attorneyProfileEducationNonLegal" ><strong><span>Brigham Young University</span>, Salt Lake City, Utah</strong>
@@ -134,7 +134,7 @@ export const BodyDavid = () => {
                                                 </li>
                                                 <li class="attorneyProfileEducationNonLegal last-child" >
                                                     <strong><span>Brigham Young University</span>, Salt Lake City, Utah</strong>
-                                                    <ul class="attorneyProfileEducationDegree"> <li class="last-child">B.A. — 1993</li>
+                                                    <ul class="attorneyProfileEducationDegree"> <li class="last-child">B.A. – 1993</li>
                                                     </ul>
                                                     <ul class="attorneyProfileEducationConcentrations"> <li class="last-child">Major: English</li>
                                                     </ul>
