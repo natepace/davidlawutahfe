@@ -50,14 +50,27 @@ p{
   display:flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 .head-nav ul{
   display: flex;
   list-style-type: none;
   
 }
+.law-blog{
+  display: flex;
+  border:1px solid transparent;
+  border-radius: 2px;
+  background-color: #003c80;
+  height: 30px;
+  align-items:center
+  
+}
+
 .law-blog:hover{
-font-size: 105%;
+  background-color: #002450;
+  border: 1px solid #003c80;
+border-style: inset;
 }
 .head-nav li{
   padding-left:20px;
