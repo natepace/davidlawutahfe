@@ -33,8 +33,8 @@ export const Header = () => {
                                 <li>
                                     <Link to='/Our-Attorneys'>Attorneys</Link>
                                 </li>
-                                <li>
-                                    <Link to='/contact' onClick={scrollToForm}>Contact</Link>
+                                <li onClick={scrollToForm}>
+                                    Contact
                                 </li>
                             </ul>
 
