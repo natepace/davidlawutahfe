@@ -85,9 +85,13 @@ p{
 
 /* DAVID PAGE STYLES */
 .david-Prof-Pic{
-  background-image: url(./assets/davidprof.jpg);
-  width: 144px;
-  height: 216px;
+  background-image: url(./assets/david2.JPG);
+  /* width: 144px; */
+  width:200px;
+  height:300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* height: 216px; */
   box-shadow: 3px 2px 2px #002d61;
 }
 
@@ -861,6 +865,8 @@ margin:5px;
     height: 216px;
     margin-bottom: 4px;
     box-shadow: 3px 2px 2px #002d61;
+
+    
     
   }
 
