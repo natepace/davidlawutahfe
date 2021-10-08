@@ -96,7 +96,7 @@ export const BodyDavid = () => {
                                         </div>
                                         <div class="attorneyProfileNarrative">
                                             <p><strong><span>David Pace</span></strong>
-                                                <span> is the managing partner of The Pace Law Firm, and has been working with the firm since 1998. David manages the family law and personal injury litigation section of the firm. He received his undergraduate degree from Brigham Young University in 1993. He entered the M.A. program in English at Brigham Young University where he taught American Literature and Writing for two years prior to beginning law school, which he also attended at Brigham Young University on a scholarship, graduating <em>cum laude</em> in 1998. His practice emphasis is civil litigation and trial practice, appellate law, personal injury, and family law. David also maintains expertise in complex debt relief issues, judgment enforcement, and bankruptcy litigation. David has extensive experience in state and federal trial practice, as well as writing and legal research.David is committed to helping people find effective solutions to their problems.</span>
+                                                <span> is the managing partner of The Pace Law Firm, and has been working with the firm since 1998. David manages the family law and personal injury litigation section of the firm. He received his undergraduate degree from Brigham Young University in 1993. He entered the M.A. program in English at Brigham Young University where he taught American Literature and Writing for two years prior to beginning law school, which he also attended at Brigham Young University on a scholarship, graduating <em>cum laude</em> in 1998. His practice emphasis is civil litigation and trial practice, appellate law, personal injury, and family law. David also maintains expertise in complex debt relief issues, judgment enforcement, and bankruptcy litigation. David has extensive experience in state and federal trial practice, as well as writing and legal research. David is committed to helping people find effective solutions to their problems.</span>
                                             </p><p><span>David is a member of the J. Reuben Clark Law Society, the Utah Association for Justice, and the Salt Lake County Bar Association. He has been admitted to practice before the 10th Circuit Court of Appeals, the Utah State Bar, and the Utah Federal Bar. He has won the Vera A. Mayhew and Linda Adams essay contests. He is fluent in Spanish, and conversant in French and German. His non-work hours are spent raising his family, writing, and running.</span>
                                             </p>
                                         </div>
@@ -122,7 +122,7 @@ export const BodyDavid = () => {
                                                 <li class="attorneyProfileEducationLegal"  >
                                                     <strong><span>Brigham Young University, J. Reuben Clark Law School</span>, Provo, Utah</strong>
                                                     <ul class="attorneyProfileEducationDegree">
-                                                        <li class="last-child">J.D.<em> cum laude</em> - 1998</li>
+                                                        <li class="last-child">J.D.<em> cum laude</em> — 1998</li>
                                                     </ul>
                                                 </li>
                                                 <li class="attorneyProfileEducationNonLegal" ><strong><span>Brigham Young University</span>, Salt Lake City, Utah</strong>
@@ -134,7 +134,7 @@ export const BodyDavid = () => {
                                                 </li>
                                                 <li class="attorneyProfileEducationNonLegal last-child" >
                                                     <strong><span>Brigham Young University</span>, Salt Lake City, Utah</strong>
-                                                    <ul class="attorneyProfileEducationDegree"> <li class="last-child">B.A. - 1993</li>
+                                                    <ul class="attorneyProfileEducationDegree"> <li class="last-child">B.A. — 1993</li>
                                                     </ul>
                                                     <ul class="attorneyProfileEducationConcentrations"> <li class="last-child">Major: English</li>
                                                     </ul>
@@ -143,7 +143,9 @@ export const BodyDavid = () => {
                                         </div>
                                         <div class="attorneyProfileSection attorneyProfileHonorsAndAwards"> <h3>Honors and Awards</h3>
                                             <ul>
-                                                <li class="last-child"><span>Winner, Vera A.Mayhew and Linda Adams essay contests</span>
+                                                <li class="last-child"><span>Winner, Vera A. Mayhew essay contest</span>
+                                                </li>
+                                                <li class="last-child"><span>Winner, Linda Adams essay contest</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -154,7 +156,7 @@ export const BodyDavid = () => {
                                                 </li>
                                                 <li>
                                                     <span>Utah Association for Justice</span>, Member</li>
-                                                <li><span>Salt lake County Bar Association</span>, Member
+                                                <li><span>Salt Lake County Bar Association</span>, Member
                                                 </li>
                                                 <li>
                                                     <span>Utah State Bar Association</span>, Member
