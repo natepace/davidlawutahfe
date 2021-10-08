@@ -39,6 +39,15 @@ export const Header = () => {
                             </ul>
 
                         </nav>
+                        <nav>
+                            <ul>
+                                <li className="law-blog">
+                                    <Link to='/Legal-Resources'>Legal News You Can Use</Link>
+                                </li>
+
+                            </ul>
+
+                        </nav>
                     </div>
                     <div className="head-call">
                         <div className="call-text">Call Today for Your Complimentary Consultation</div>

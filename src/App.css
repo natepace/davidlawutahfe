@@ -49,11 +49,15 @@ p{
 .head-nav{
   display:flex;
   align-items: center;
+  flex-direction: column;
 }
 .head-nav ul{
   display: flex;
   list-style-type: none;
   
+}
+.law-blog:hover{
+font-size: 105%;
 }
 .head-nav li{
   padding-left:20px;
