@@ -1,6 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { scroller } from 'react-scroll';
 export const BodyDavid = () => {
+
+    const scrollToForm = () => {
+        scroller.scrollTo("form-wrapper", {
+            duration: 800,
+            delay: 0,
+            smooth: "easeInOutQuart",
+        });
+    }
+
+
+
+
     return (
         <div className="changing-body">
             <div className="about-pages-wrapper">
@@ -46,34 +59,40 @@ export const BodyDavid = () => {
                 <div className="under-nav-page">
                     <div className="column-main-wrapper">
                         <div className="column-main">
-                            <h1 className="page-title">Attorneys</h1>
+                            {/* <h1 className="page-title">Attorneys</h1> */}
+                            <h1 class="page-title">
+                                <meta itemprop="name" content="David Pace" />
+                                <span>David</span> <span>S.</span> <span>Pace</span>
+                            </h1>
+                            <div className="david-Prof-Pic1" />
+                            <span class="attorneyProfilePositionTitle">Managing Partner</span>
                             <article class="content" id="content">
                                 <div class="content-0">
                                     <div id="attorneyProfile">
-                                        <img class="attorneyProfilePhoto" alt="" src="https://web.archive.org/web/20201001035314im_/https://wldimages.findlaw.com/images/2210429/3331761_1.jpg" />
-                                        <h2 class="attorneyProfileName">
-                                            <meta itemprop="name" content="David Pace" />
-                                            <span>David</span> <span>S.</span> <span>Pace</span>
-                                        </h2>
-                                        <div class="attorneyProfilePositions">
-                                            <div class="attorneyProfilePosition">
-                                                <span class="attorneyProfilePositionTitle">Managing Partner</span>
+                                        <div className="lawyer-header">
+
+                                            <div className="about-attorney">
+
+                                                <div className="attorney-infos">
+                                                    <p><strong>Location:</strong></p>
+                                                    <p>Cottonwood Heights, Utah</p>
+                                                </div>
+                                                <div className="attorney-infos">
+                                                    <p><strong>Phone: </strong></p> <p> 801-355-9700</p>
+                                                </div>
+                                                <div className="attorney-infos">
+                                                    <p><strong>Fax: </strong></p><p> 801-355-9705</p>
+                                                </div>
+                                                <div className="attorney-infos">
+                                                    <p><strong>Email: </strong></p>
+
+                                                    <button onClick={scrollToForm}><strong>Email Me</strong></button>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="attorneyProfileContactInformation">
-                                            <div class="attorneyProfileLocationLabel">Location: </div>
-                                            <div class="attorneyProfileLocation">Cottonwood Heights, Utah</div>
-                                            <div class="attorneyProfilePhoneLabel">Phone: </div>
-                                            <div class="attorneyProfilePhone"> 801-355-9700
-                                            </div>
-                                            <div class="attorneyProfileFaxLabel">Fax: </div>
-                                            <div class="attorneyProfileFax"> 801-355-9705
-                                            </div>
-                                            <div class="attorneyProfileEmailLabel">Email: </div>
-                                            <div class="attorneyProfileEmail">
-                                                <p>E-mail Me</p>
-                                            </div>
-                                            <div class="attorneyProfileVCard"></div>
+                                            <div className="david-Prof-Pic" />
+
+
+
                                         </div>
                                         <div class="attorneyProfileNarrative">
                                             <p><strong><span>David Pace</span></strong>
@@ -165,7 +184,7 @@ export const BodyDavid = () => {
                             </article>
                         </div>
                     </div >
-                    <div className="column-menu-wrapper">
+                    {/* <div className="column-menu-wrapper">
                         <nav className="practice-areas-col">
 
                             <Link className="subnavs" to="/Family-Law">
@@ -210,7 +229,7 @@ export const BodyDavid = () => {
                                 </p>
                             </Link>
                         </nav>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div >

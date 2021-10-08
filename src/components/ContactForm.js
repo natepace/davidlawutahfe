@@ -7,7 +7,7 @@ export const ContactForm = () => {
 
 
     return (
-        <div className="form-wrapper">
+        <div className="form-wrapper" id="formlocation">
             <div className="form-peel">
                 <h4 className="form-title">Request A Consultation</h4>
                 <div className="input-container">

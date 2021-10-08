@@ -1,7 +1,16 @@
 import React from 'react'
 import brandlogo from '../assets/brandlogo.png'
 import { Link } from 'react-router-dom'
+import { scroller } from 'react-scroll';
 export const Header = () => {
+
+    const scrollToForm = () => {
+        scroller.scrollTo("form-wrapper", {
+            duration: 800,
+            delay: 0,
+            smooth: "easeInOutQuart",
+        });
+    }
     return (
         <div className="header-wrap">
             <header className="header-page">
@@ -25,7 +34,7 @@ export const Header = () => {
                                     <Link to='/Our-Attorneys'>Attorneys</Link>
                                 </li>
                                 <li>
-                                    <Link to='/contact'>Contact</Link>
+                                    <Link to='/contact' onClick={scrollToForm}>Contact</Link>
                                 </li>
                             </ul>
 

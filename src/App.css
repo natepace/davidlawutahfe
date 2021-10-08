@@ -77,6 +77,53 @@ p{
   color: orange;
 }
 
+/* DAVID PAGE STYLES */
+.david-Prof-Pic{
+  background-image: url(./assets/davidprof.jpg);
+  width: 144px;
+  height: 216px;
+  box-shadow: 3px 2px 2px #002d61;
+}
+
+
+
+.about-attorney{
+  width:60%;
+}
+.lawyer-header{
+  display: flex;
+  /* flex-direction: row-reverse; */
+  justify-content: space-between;
+}
+.attorney-infos{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.attorney-infos button{
+  height:40px;
+  width:40%;
+  border:none;
+  background-color: #0b4f9b;
+  color:white;
+  border-radius: 2px;
+  font-size: medium;
+}
+
+.attorney-infos button:hover{
+cursor: pointer;
+background-color: #083e7c;
+  
+}
+
+
+.attorneyProfileSection h3{
+color:#083e7c;
+font-size: xx-large;
+}
+
+
 /**** BODY TEXT STYLES ************/
 
 
@@ -236,7 +283,8 @@ p{
 .subnavs{
   display: flex;
   align-items: center;
-  
+  margin-bottom: 2px;
+  border-radius: 2px;
   height: 61px;
   text-decoration: none;
   text-indent: 14px;
@@ -796,7 +844,50 @@ margin:5px;
     
   }
 }
+@media (max-width:790px){
+  .david-Prof-Pic{
+    display:none;
+  }
+  
+  .david-Prof-Pic1{
+    background-image: url(./assets/davidprof.jpg);
+    width: 144px;
+    height: 216px;
+    margin-bottom: 4px;
+    box-shadow: 3px 2px 2px #002d61;
+    
+  }
 
+  .about-attorney{
+    width:100%;
+  }
+  .lawyer-header{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+  }
+  .attorney-infos{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .attorney-infos button{
+    height:40px;
+    width:40%;
+    border:none;
+    background-color: #0b4f9b;
+    color:white;
+    border-radius: 2px;
+    font-size: medium;
+  }
+  
+  .attorney-infos button:hover{
+  cursor: pointer;
+  background-color: #083e7c;
+    
+  }
+}
 
 @media (max-width:560px){
   .family-subnavs p{
