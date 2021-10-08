@@ -141,7 +141,7 @@ export const BodyChildSupport = () => {
 
                             <Link className="subnavs" to="/other-practice-areas/Judgment-Enforcement">
                                 <p>
-                                    Judgement Enforcement
+                                    Judgment Enforcement
                                 </p>
                             </Link>
                             <Link className="subnavs" to="/other-practice-areas/Personal-Injury">

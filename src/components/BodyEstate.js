@@ -28,7 +28,7 @@ export const BodyEstate = () => {
                         </li>
                         <li>
                             <Link className="judgement-law-nav" to="/other-practice-areas/Judgment-Enforcement">
-                                <span>Judgement Enforcement</span>
+                                <span>Judgment Enforcement</span>
                             </Link>
                         </li>
                         <li>
@@ -85,7 +85,7 @@ export const BodyEstate = () => {
 
                             <Link className="subnavs" to="/other-practice-areas/Judgment-Enforcement">
                                 <p>
-                                    Judgement Enforcement
+                                    Judgment Enforcement
                                 </p>
                             </Link>
                             <Link className="subnavs" to="/other-practice-areas/Personal-Injury">

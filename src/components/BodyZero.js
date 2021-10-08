@@ -27,7 +27,7 @@ export const BodyZero = () => {
                     </li>
                     <li>
                         <Link className="judgement-law-nav" to="/other-practice-areas/Judgment-Enforcement">
-                            <span>Judgement Enforcement</span>
+                            <span>Judgment Enforcement</span>
                         </Link>
                     </li>
                     <li>
