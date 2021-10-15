@@ -16,7 +16,7 @@ export const BodyBlog = () => {
     useEffect(() => {
         axios.get('https://law-blog-db.herokuapp.com/blogs')
             .then(res => {
-                setBlogs(res.data)
+                setBlogs(res.data.reverse())
                 console.log(res.data)
             })
     }, [])
