@@ -22,6 +22,7 @@ import { BodyAdoptions } from './components/BodyAdoptions';
 import { BodyModifications } from './components/BodyModifications';
 import { BodyAttorneys } from './components/BodyAttorneys';
 import { BodyDavid } from './components/BodyDavid';
+import { BodyBlog } from './components/BodyBlog';
 function App() {
   return (
     <div className="App">
@@ -34,7 +35,7 @@ function App() {
 
 
         <Switch>
-
+          <Route path='/Legal-News-You-Can-Use' component={BodyBlog} />
           <Route path='/Our-Attorneys/David-S-Pace' component={BodyDavid} />
           <Route path='/Our-Attorneys' component={BodyAttorneys} />
           <Route path='/Family-Law/Divorces' component={BodyDivorces} />

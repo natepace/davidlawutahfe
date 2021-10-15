@@ -42,7 +42,7 @@ export const Header = () => {
                         <nav>
                             <ul>
                                 <li className="law-blog">
-                                    <Link to='/Legal-Resources'>Legal News You Can Use</Link>
+                                    <Link to='/Legal-News-You-Can-Use' >Legal News You Can Use</Link>
                                 </li>
 
                             </ul>
