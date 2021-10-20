@@ -10,15 +10,15 @@ export const BlogsWrapper = (props) => {
 
     }
 
-    const container = []
-    if (blogEntry.entry != undefined) {
-        const splitUp = blogEntry.entry.split("\n")
+    // const container = []
+    // if (blogEntry.entry != undefined) {
+    //     const splitUp = blogEntry.entry.split("\n")
 
-        splitUp.map(s => {
-            container.push(s.split(/[{}]/).filter(function (e) { return e; }))
-        })
-    }
-    console.log(container)
+    //     splitUp.map(s => {
+    //         container.push(s.split(/[{}]/).filter(function (e) { return e; }))
+    //     })
+    // }
+    // console.log(container)
 
     return (
         <div>
