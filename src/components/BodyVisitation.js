@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 export const BodyVisitation = () => {
+    document.title = "Salt Lake City Visitation Rights Attorneys | Parenting Time Salt Lake Utah"
     return (
         <div className="changing-body">
             <div className="about-pages-wrapper">

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 export const BodyJudge = () => {
+    document.title = "Judgment Enforcement | The Pace Law Firm | Salt Lake City"
     return (
         <div className="changing-body">
             <div className="about-pages-wrapper">

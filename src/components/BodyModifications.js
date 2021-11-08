@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 export const BodyModifications = () => {
+    document.title = "Salt Lake City Child Custody Modification Attorneys | Divorce Decree Modification"
     return (
         <div className="changing-body">
             <div className="about-pages-wrapper">

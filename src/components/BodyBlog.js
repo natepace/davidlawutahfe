@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { BlogsWrapper } from './BlogsWrapper'
 
+
 const initialBlogs = {
     // blog_id: 0,
     // blog_title: "",
@@ -11,6 +12,7 @@ const initialBlogs = {
 }
 
 export const BodyBlog = () => {
+    document.title = "Legal Resources Salt Lake City | The Pace Law Firm | Legal News You Can Use"
     const [blogs, setBlogs] = useState(initialBlogs)
 
     useEffect(() => {

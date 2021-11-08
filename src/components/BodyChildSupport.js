@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 export const BodyChildSupport = () => {
+    document.title = "Salt Lake City Child Support Attorneys | Support Modification Cottonwood Heights"
     return (
         <div className="changing-body">
             <div className="about-pages-wrapper">

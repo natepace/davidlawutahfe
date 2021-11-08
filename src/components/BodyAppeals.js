@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 export const BodyAppeals = () => {
+    document.title = "Salt Lake City Appeals Lawyer | Utah Appellate Court | Appeal of Trial Court"
     return (
         <div className="changing-body">
             <div className="about-pages-wrapper">

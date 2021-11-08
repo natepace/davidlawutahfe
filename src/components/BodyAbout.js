@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 export const BodyAbout = () => {
+    document.title = 'Salt Lake City Attorney | Cottonwood Heights Lawyer'
     return (
 
         <div className="changing-body">

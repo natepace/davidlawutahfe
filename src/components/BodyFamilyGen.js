@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 export const BodyFamilyGen = () => {
+    document.title = "Family Law Attorney Salt Lake City | Utah Divorce Lawyer"
     return (
         <div className="changing-body">
             <div className="about-pages-wrapper">

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 export const BodyInjury = () => {
+    document.title = "Salt Lake City Personal Injury Attorneys | Car Accident | Wrongful Death"
     return (
         <div className="changing-body">
             <div className="about-pages-wrapper">

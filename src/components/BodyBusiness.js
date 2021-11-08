@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 export const BodyBusiness = () => {
+    document.title = "Salt Lake City Business Litigation Attorneys | Utah Contract Dispute Lawyer | Contract Lawsuit"
     return (
         <div className="changing-body">
             <div className="about-pages-wrapper">

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { scroller } from 'react-scroll';
 export const BodyDavid = () => {
+    document.title = "David S. Pace | The Pace Law Firm, Attorneys & Counselors At Law | Salt Lake City"
 
     const scrollToForm = () => {
         scroller.scrollTo("form-wrapper", {

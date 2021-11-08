@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 export const BodyAlimony = () => {
+    document.title = "Salt Lake City Alimony Attorneys | Spousal Support | Alimony Modification"
     return (
         <div className="changing-body">
             <div className="about-pages-wrapper">

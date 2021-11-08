@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 export const BodyAdoptions = () => {
+    document.title = "Salt Lake City Adoption Attorneys | Stepparent Adoption Lawyer | Cottonwood Heights"
     return (
+
         <div className="changing-body">
             <div className="about-pages-wrapper">
                 <div className="practice-areas-nav">
