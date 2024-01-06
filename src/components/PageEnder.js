@@ -22,7 +22,7 @@ export const PageEnder = () => {
       <div className="footer-section">
         <footer>
           <p className="copyright">
-            © 2023 by The Pace Law Firm. All rights reserved.
+            © 2024 by The Pace Law Firm. All rights reserved.
           </p>
         </footer>
       </div>
